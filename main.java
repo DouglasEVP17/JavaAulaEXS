@@ -28,14 +28,8 @@ importar  java . útil . Scanner ;
             caso  3 :
                 resolucao = Calculadora . multiplicação ( num1 , num2 );
                 quebrar ;
-            caso  4 :
-                tentar {
-                    resolucao = Calculadora . divisão ( num1 , num2 );
-                } catch ( IllegalArgumentException  e ) {
-                    Sistema . fora . println ( e.getMessage ( )) ;
-                    retornar ;
-                }
-                quebrar ;
+                
+                
             padrão :
                 Sistema . fora . println ( "Erro!" );
                 retornar ;
